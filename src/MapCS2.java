@@ -1,6 +1,6 @@
 import java.util.*;
 
-interface CS2Map<Key extends Comparable<Key>, Value> {
+interface MapCS2<Key extends Comparable<Key>, Value> {
   Value get(Key key);           // returns a Value for the specified key
   void put(Key key, Value val); // puts a Key-Value pair in the map
   ArrayList<Key> getKeys();     // returns the keys of the map as an ArrayList
